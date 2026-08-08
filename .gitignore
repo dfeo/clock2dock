@@ -1,0 +1,12 @@
+# build output
+clock2dock.app/
+DockClock.app/
+
+# macOS
+.DS_Store
+
+# build artifacts
+*.o
+*.swiftmodule
+*.swiftdoc
+build/
