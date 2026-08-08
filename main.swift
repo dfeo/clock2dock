@@ -32,8 +32,8 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         NSColor(calibratedRed: 0.05, green: 0.07, blue: 0.10, alpha: 1).setFill()
         bg.fill()
 
-        let font = NSFont(name: "Menlo-Bold", size: 175)
-            ?? NSFont.systemFont(ofSize: 175, weight: .bold)
+        let font = NSFont(name: "SF Pro Display", size: 210)
+            ?? NSFont.systemFont(ofSize: 210, weight: .heavy)
         let para = NSMutableParagraphStyle()
         para.alignment = .center
         let attrs: [NSAttributedString.Key: Any] = [
